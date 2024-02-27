@@ -1,0 +1,21 @@
+{
+    "jobs": [
+        {
+            "id": "api_job2",
+            "func": "task_1",
+            "trigger": {
+                "type": "cron",
+                "cron_expression": {
+                    "second": "*/45",
+                    "minute": "*/10",
+                    "hour": "0/9",
+                    "day": "1",
+                    "month": "2",
+                    "day_of_week": "FRI",
+                    "timezone": "Asia/Tokyo",
+                    "name": "TestApiTime"
+                }
+            }
+        }
+    ]
+}

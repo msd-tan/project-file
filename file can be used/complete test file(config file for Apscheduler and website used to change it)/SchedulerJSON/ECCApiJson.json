@@ -1,0 +1,21 @@
+{
+    "jobs": [
+        {
+            "id": "api_job2",
+            "func": "TestCSVAPI11.get_csv_data",
+            "trigger": {
+                "type": "cron",
+                "cron_expression": {
+                    "second": "*/10",
+                    "minute": "*/5",
+                    "hour": "0/24",
+                    "day": "15",
+                    "month": "12",
+                    "day_of_week": "SAT",
+                    "timezone": "Asia/Tokyo",
+                    "name": "ECCApiJson"
+                }
+            }
+        }
+    ]
+}
